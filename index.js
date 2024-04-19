@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (request, response) => {
-  return response.send('welcome to Docker project');
+  return response.send('welcome to Docker project2');
 });
 
 //for all wrong path
