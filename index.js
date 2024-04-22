@@ -14,6 +14,7 @@ app.get('/', (request, response) => {
   return response.send('welcome to Docker project2');
 });
 
+
 //for all wrong path
 app.all('*', function (req, res) {
   try {
